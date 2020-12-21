@@ -1,3 +1,7 @@
+:root {
+  --black-transparent-light: rgba(0, 0, 0, 0.2);
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid var(--black-transparent-light);
+  width: 70%;
 }
